@@ -5,6 +5,12 @@ There are three main parts in the Corda app.
 - contract : the constraints governing how states of a given type can evolve over time
 - flow : the procedures for carrying out specific ledger updates
 
+The code is in :
+contracts/src/main/java/com/template/contracts
+contracts/src/main/java/com/template/states
+and
+workflows/src/main/java/com/template/flows
+
 1) Build and deploy the nodes
 In Ubuntu, run the command to build the code and deploy the nodes
 ./gradlew clean deployNodes
